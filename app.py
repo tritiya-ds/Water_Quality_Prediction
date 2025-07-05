@@ -77,8 +77,9 @@ def load_models():
     import urllib.request
     
     # Replace these URLs with your actual Google Drive direct download links
-    MODEL_URL = "https://drive.google.com/uc?id=1kBhg5vuGdPw9NKKLr9Y89PAWf_V8-avA&export=download"
-    COLS_URL = "https://drive.google.com/uc?id=1U9ljX7rj7gYFywMqBNuKgHS9oDa0AQk5&export=download"
+    MODEL_URL = "https://raw.githubusercontent.com/tritiya-ds/Water_Quality_Prediction/main/pollution_model.pkl"
+    COLS_URL = "https://raw.githubusercontent.com/tritiya-ds/Water_Quality_Prediction/main/model_columns.pkl"
+
     
     try:
         # Check if files exist locally, if not download them
